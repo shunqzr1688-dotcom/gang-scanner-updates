@@ -1,0 +1,12 @@
+{
+  "executable": "/workspace/work/gang-v14-testenv/bin/python",
+  "base_prefix": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python",
+  "prefix": "/workspace/work/gang-v14-testenv",
+  "isolated_venv": true,
+  "packages": {
+    "cryptography": "50.0.0",
+    "pip": "25.0.1",
+    "pycparser": "3.12",
+    "cffi": "2.1.1"
+  }
+}

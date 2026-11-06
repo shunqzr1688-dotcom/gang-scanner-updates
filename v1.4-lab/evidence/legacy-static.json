@@ -1,0 +1,93 @@
+{
+  "source": "/workspace/work/gang-v14/v1.4-lab/gang_updater_v14_reviewed.py",
+  "source_sha256": "b708a73604e590b0de1b7faadaec9d8ea7ba493859425a12766d77ff714711da",
+  "results": [
+    {
+      "test": "Python syntax",
+      "status": "PASS",
+      "detail": "AST parse and compile succeeded; source not executed"
+    },
+    {
+      "test": "Ed25519 verification code",
+      "status": "REVIEW",
+      "detail": "Indicators present; NOT proof of correct behavior"
+    },
+    {
+      "test": "SHA256 check code",
+      "status": "REVIEW",
+      "detail": "Indicators present; NOT proof of correct behavior"
+    },
+    {
+      "test": "Backup code",
+      "status": "REVIEW",
+      "detail": "Indicators present; NOT proof of correct behavior"
+    },
+    {
+      "test": "Rollback code",
+      "status": "REVIEW",
+      "detail": "Indicators present; NOT proof of correct behavior"
+    },
+    {
+      "test": "Path validation code",
+      "status": "WARN",
+      "detail": "Missing textual indicators: resolve"
+    },
+    {
+      "test": "Isolated marker/config code",
+      "status": "REVIEW",
+      "detail": "Indicators present; NOT proof of correct behavior"
+    },
+    {
+      "test": "Executable update risk",
+      "status": "REVIEW",
+      "detail": "Execution-related calls: none detected via call names; signed code still requires trusted keys and controlled execution"
+    },
+    {
+      "test": "SHA256 positive/negative fixture",
+      "status": "PASS",
+      "detail": "Python hashlib fixture only; does not execute updater hash verification"
+    },
+    {
+      "test": "Ed25519 positive/negative fixture",
+      "status": "PASS",
+      "detail": "cryptography fixture only; updater key/verification path not exercised"
+    },
+    {
+      "test": "ZIP traversal fixture",
+      "status": "PASS",
+      "detail": "Malicious ZIP generated/detected locally; updater ZIP handling NOT executed"
+    },
+    {
+      "test": "Backup/rollback fixture",
+      "status": "PASS",
+      "detail": "Standalone temporary-file rollback only; updater rollback NOT executed"
+    },
+    {
+      "test": "CLI isolation switches",
+      "status": "REVIEW",
+      "detail": "Switches present; actual fail-closed behavior NOT exercised"
+    },
+    {
+      "test": "Windows ACL/interrupted update",
+      "status": "SKIP",
+      "detail": "Requires dedicated controlled Windows fault-injection test"
+    },
+    {
+      "test": "Real updater signed package/rollback",
+      "status": "SKIP",
+      "detail": "Requires audited isolated fixture and trusted test signing key; intentionally not run"
+    },
+    {
+      "test": "Production scanner/records",
+      "status": "PASS",
+      "detail": "No updater import/execution; script never opens production scanner paths"
+    }
+  ],
+  "counts": {
+    "PASS": 6,
+    "FAIL": 0,
+    "WARN": 1,
+    "REVIEW": 7,
+    "SKIP": 2
+  }
+}

@@ -1,0 +1,2 @@
+# Exact version tested in the Linux cloud runtime; Windows must validate its own wheel.
+cryptography==50.0.0

@@ -1,0 +1,49 @@
+test_absent_originals_restored_as_absent (__main__.Acceptance.test_absent_originals_restored_as_absent) ... ok
+test_archive_name_attacks (__main__.Acceptance.test_archive_name_attacks) ... ok
+test_atomic_fsync_before_replace_crashes (__main__.Acceptance.test_atomic_fsync_before_replace_crashes) ... ok
+test_atomic_replace_failure_leaves_recoverable_journal (__main__.Acceptance.test_atomic_replace_failure_leaves_recoverable_journal) ... ok
+test_backup_failure_leaves_originals (__main__.Acceptance.test_backup_failure_leaves_originals) ... ok
+test_commit_marker_write_failure_rolls_back (__main__.Acceptance.test_commit_marker_write_failure_rolls_back) ... ok
+test_committed_integrity_check (__main__.Acceptance.test_committed_integrity_check) ... ok
+test_complete_package (__main__.Acceptance.test_complete_package) ... ok
+test_concurrent_lock_contention (__main__.Acceptance.test_concurrent_lock_contention) ... ok
+test_corrupt_backup_fails_before_any_restore (__main__.Acceptance.test_corrupt_backup_fails_before_any_restore) ... ok
+test_corrupt_journal_fails_closed (__main__.Acceptance.test_corrupt_journal_fails_closed) ... ok
+test_disabled (__main__.Acceptance.test_disabled) ... ok
+test_dry_run (__main__.Acceptance.test_dry_run) ... ok
+test_duplicate_archive_entries (__main__.Acceptance.test_duplicate_archive_entries) ... /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/zipfile/__init__.py:1625: UserWarning: Duplicate name: 'gang_trader.py'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+ok
+test_duplicate_json_keys (__main__.Acceptance.test_duplicate_json_keys) ... ok
+test_failure_rollback_at_every_mutation (__main__.Acceptance.test_failure_rollback_at_every_mutation) ... ok
+test_full_install_and_idempotent_recovery (__main__.Acceptance.test_full_install_and_idempotent_recovery) ... ok
+test_hardlinked_target (__main__.Acceptance.test_hardlinked_target) ... ok
+test_interrupted_recovery_is_repeatable (__main__.Acceptance.test_interrupted_recovery_is_repeatable) ... ok
+test_journal_path_traversal (__main__.Acceptance.test_journal_path_traversal) ... ok
+test_linked_parent_root (__main__.Acceptance.test_linked_parent_root) ... ok
+test_linked_target_and_backup_directory (__main__.Acceptance.test_linked_target_and_backup_directory) ... ok
+test_manifest_schema_strictness (__main__.Acceptance.test_manifest_schema_strictness) ... ok
+test_marker_config_scanner_guards (__main__.Acceptance.test_marker_config_scanner_guards) ... ok
+test_mock_business_and_state_compatibility (__main__.Acceptance.test_mock_business_and_state_compatibility) ... ok
+test_null_required_journal_hash_rejected (__main__.Acceptance.test_null_required_journal_hash_rejected) ... ok
+test_per_module_hash (__main__.Acceptance.test_per_module_hash) ... ok
+test_process_exit_at_every_checkpoint (__main__.Acceptance.test_process_exit_at_every_checkpoint) ... ok
+test_real_force_kill_and_lock_release (__main__.Acceptance.test_real_force_kill_and_lock_release) ... ok
+test_recovery_disk_failure_then_retry (__main__.Acceptance.test_recovery_disk_failure_then_retry) ... ok
+test_replay_and_downgrade (__main__.Acceptance.test_replay_and_downgrade) ... ok
+test_signature_tampering (__main__.Acceptance.test_signature_tampering) ... ok
+test_static_unsafe_candidates (__main__.Acceptance.test_static_unsafe_candidates) ... ok
+test_strict_versions (__main__.Acceptance.test_strict_versions) ... ok
+test_total_uncompressed_limit (__main__.Acceptance.test_total_uncompressed_limit) ... ok
+test_two_installers_serialized (__main__.Acceptance.test_two_installers_serialized) ... ok
+test_uncompressed_size (__main__.Acceptance.test_uncompressed_size) ... ok
+test_windows_junction_guard (__main__.Acceptance.test_windows_junction_guard) ... skipped 'requires actual Windows NTFS junction support'
+test_windows_open_file_sharing_violation_recovery (__main__.Acceptance.test_windows_open_file_sharing_violation_recovery) ... skipped 'requires actual Windows file sharing semantics'
+test_wrong_pinned_key (__main__.Acceptance.test_wrong_pinned_key) ... ok
+test_zip_hash_tampering (__main__.Acceptance.test_zip_hash_tampering) ... ok
+test_zip_symlink (__main__.Acceptance.test_zip_symlink) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 7.188s
+
+OK (skipped=2)
