@@ -1,0 +1,396 @@
+{
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "os_name": "posix",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "windows_machine_acceptance": false,
+  "physical_power_loss_tested": false,
+  "cryptography": "50.0.0",
+  "source_sha256": "b708a73604e590b0de1b7faadaec9d8ea7ba493859425a12766d77ff714711da",
+  "test_sha256": "3da68a310321617232620536a4ad6d245cd5744e808cda9cacf67d42cdc4dc8b",
+  "tests_run": 42,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 2,
+  "elapsed_seconds": 6.144792556762695,
+  "events": [
+    {
+      "test": "test_absent_originals_restored_as_absent (__main__.Acceptance.test_absent_originals_restored_as_absent)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_archive_name_attacks (__main__.Acceptance.test_archive_name_attacks) (name='../escape.py')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_archive_name_attacks (__main__.Acceptance.test_archive_name_attacks) (name='./gang_trader.py')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_archive_name_attacks (__main__.Acceptance.test_archive_name_attacks) (name='C:\\\\escape.py')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_archive_name_attacks (__main__.Acceptance.test_archive_name_attacks) (name='/escape.py')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_archive_name_attacks (__main__.Acceptance.test_archive_name_attacks) (name='folder/')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_archive_name_attacks (__main__.Acceptance.test_archive_name_attacks) (name='positions.mock.json')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_archive_name_attacks (__main__.Acceptance.test_archive_name_attacks)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_atomic_fsync_before_replace_crashes (__main__.Acceptance.test_atomic_fsync_before_replace_crashes) (name='gang_trader.py')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_atomic_fsync_before_replace_crashes (__main__.Acceptance.test_atomic_fsync_before_replace_crashes) (name='update_config_v14.json')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_atomic_fsync_before_replace_crashes (__main__.Acceptance.test_atomic_fsync_before_replace_crashes) (name='.transaction.json')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_atomic_fsync_before_replace_crashes (__main__.Acceptance.test_atomic_fsync_before_replace_crashes)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_atomic_replace_failure_leaves_recoverable_journal (__main__.Acceptance.test_atomic_replace_failure_leaves_recoverable_journal)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_backup_failure_leaves_originals (__main__.Acceptance.test_backup_failure_leaves_originals)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_commit_marker_write_failure_rolls_back (__main__.Acceptance.test_commit_marker_write_failure_rolls_back)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_committed_integrity_check (__main__.Acceptance.test_committed_integrity_check)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_complete_package (__main__.Acceptance.test_complete_package)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_concurrent_lock_contention (__main__.Acceptance.test_concurrent_lock_contention)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_corrupt_backup_fails_before_any_restore (__main__.Acceptance.test_corrupt_backup_fails_before_any_restore)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_corrupt_journal_fails_closed (__main__.Acceptance.test_corrupt_journal_fails_closed)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_disabled (__main__.Acceptance.test_disabled)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_dry_run (__main__.Acceptance.test_dry_run)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_duplicate_archive_entries (__main__.Acceptance.test_duplicate_archive_entries)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_duplicate_json_keys (__main__.Acceptance.test_duplicate_json_keys)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_failure_rollback_at_every_mutation (__main__.Acceptance.test_failure_rollback_at_every_mutation) (point='prepared')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_failure_rollback_at_every_mutation (__main__.Acceptance.test_failure_rollback_at_every_mutation) (point='applying')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_failure_rollback_at_every_mutation (__main__.Acceptance.test_failure_rollback_at_every_mutation) (point='write:gang_trader.py')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_failure_rollback_at_every_mutation (__main__.Acceptance.test_failure_rollback_at_every_mutation) (point='write:market_sources.py')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_failure_rollback_at_every_mutation (__main__.Acceptance.test_failure_rollback_at_every_mutation) (point='write:test_official_api.py')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_failure_rollback_at_every_mutation (__main__.Acceptance.test_failure_rollback_at_every_mutation) (point='write:test_sources_fix.py')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_failure_rollback_at_every_mutation (__main__.Acceptance.test_failure_rollback_at_every_mutation) (point='write:update_config_v14.json')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_failure_rollback_at_every_mutation (__main__.Acceptance.test_failure_rollback_at_every_mutation) (point='before_commit')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_failure_rollback_at_every_mutation (__main__.Acceptance.test_failure_rollback_at_every_mutation)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_full_install_and_idempotent_recovery (__main__.Acceptance.test_full_install_and_idempotent_recovery)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_hardlinked_target (__main__.Acceptance.test_hardlinked_target)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_interrupted_recovery_is_repeatable (__main__.Acceptance.test_interrupted_recovery_is_repeatable) (file='gang_trader.py')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_interrupted_recovery_is_repeatable (__main__.Acceptance.test_interrupted_recovery_is_repeatable) (file='market_sources.py')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_interrupted_recovery_is_repeatable (__main__.Acceptance.test_interrupted_recovery_is_repeatable) (file='test_official_api.py')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_interrupted_recovery_is_repeatable (__main__.Acceptance.test_interrupted_recovery_is_repeatable) (file='test_sources_fix.py')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_interrupted_recovery_is_repeatable (__main__.Acceptance.test_interrupted_recovery_is_repeatable) (file='update_config_v14.json')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_interrupted_recovery_is_repeatable (__main__.Acceptance.test_interrupted_recovery_is_repeatable)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_journal_path_traversal (__main__.Acceptance.test_journal_path_traversal)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_linked_parent_root (__main__.Acceptance.test_linked_parent_root)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_linked_target_and_backup_directory (__main__.Acceptance.test_linked_target_and_backup_directory)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_manifest_schema_strictness (__main__.Acceptance.test_manifest_schema_strictness) (fields={'schema': True})",
+      "status": "PASS"
+    },
+    {
+      "test": "test_manifest_schema_strictness (__main__.Acceptance.test_manifest_schema_strictness) (fields={'schema': 2})",
+      "status": "PASS"
+    },
+    {
+      "test": "test_manifest_schema_strictness (__main__.Acceptance.test_manifest_schema_strictness) (fields={'extra': 'unsigned-scope-attack'})",
+      "status": "PASS"
+    },
+    {
+      "test": "test_manifest_schema_strictness (__main__.Acceptance.test_manifest_schema_strictness)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_marker_config_scanner_guards (__main__.Acceptance.test_marker_config_scanner_guards)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_mock_business_and_state_compatibility (__main__.Acceptance.test_mock_business_and_state_compatibility)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_null_required_journal_hash_rejected (__main__.Acceptance.test_null_required_journal_hash_rejected)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_per_module_hash (__main__.Acceptance.test_per_module_hash)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_process_exit_at_every_checkpoint (__main__.Acceptance.test_process_exit_at_every_checkpoint) (point='backup_ready')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_process_exit_at_every_checkpoint (__main__.Acceptance.test_process_exit_at_every_checkpoint) (point='prepared')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_process_exit_at_every_checkpoint (__main__.Acceptance.test_process_exit_at_every_checkpoint) (point='applying')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_process_exit_at_every_checkpoint (__main__.Acceptance.test_process_exit_at_every_checkpoint) (point='write:gang_trader.py')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_process_exit_at_every_checkpoint (__main__.Acceptance.test_process_exit_at_every_checkpoint) (point='write:market_sources.py')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_process_exit_at_every_checkpoint (__main__.Acceptance.test_process_exit_at_every_checkpoint) (point='write:test_official_api.py')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_process_exit_at_every_checkpoint (__main__.Acceptance.test_process_exit_at_every_checkpoint) (point='write:test_sources_fix.py')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_process_exit_at_every_checkpoint (__main__.Acceptance.test_process_exit_at_every_checkpoint) (point='write:update_config_v14.json')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_process_exit_at_every_checkpoint (__main__.Acceptance.test_process_exit_at_every_checkpoint) (point='before_commit')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_process_exit_at_every_checkpoint (__main__.Acceptance.test_process_exit_at_every_checkpoint) (point='committed')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_process_exit_at_every_checkpoint (__main__.Acceptance.test_process_exit_at_every_checkpoint)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_real_force_kill_and_lock_release (__main__.Acceptance.test_real_force_kill_and_lock_release) (point='prepared')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_real_force_kill_and_lock_release (__main__.Acceptance.test_real_force_kill_and_lock_release) (point='write:gang_trader.py')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_real_force_kill_and_lock_release (__main__.Acceptance.test_real_force_kill_and_lock_release) (point='write:update_config_v14.json')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_real_force_kill_and_lock_release (__main__.Acceptance.test_real_force_kill_and_lock_release) (point='committed')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_real_force_kill_and_lock_release (__main__.Acceptance.test_real_force_kill_and_lock_release)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_recovery_disk_failure_then_retry (__main__.Acceptance.test_recovery_disk_failure_then_retry)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_replay_and_downgrade (__main__.Acceptance.test_replay_and_downgrade) (version='1.3.2')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_replay_and_downgrade (__main__.Acceptance.test_replay_and_downgrade) (version='1.3.1')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_replay_and_downgrade (__main__.Acceptance.test_replay_and_downgrade) (version='1.3.0')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_replay_and_downgrade (__main__.Acceptance.test_replay_and_downgrade)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_signature_tampering (__main__.Acceptance.test_signature_tampering)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_static_unsafe_candidates (__main__.Acceptance.test_static_unsafe_candidates) (source=b'import socket\\n')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_static_unsafe_candidates (__main__.Acceptance.test_static_unsafe_candidates) (source=b'exec(\"pass\")\\n')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_static_unsafe_candidates (__main__.Acceptance.test_static_unsafe_candidates) (source=b'x = object.__subclasses__()\\n')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_static_unsafe_candidates (__main__.Acceptance.test_static_unsafe_candidates) (source=b'open(\"positions.mock.json\", \"w\")\\n')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_static_unsafe_candidates (__main__.Acceptance.test_static_unsafe_candidates) (source=b'def broken(\\n')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_static_unsafe_candidates (__main__.Acceptance.test_static_unsafe_candidates)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_strict_versions (__main__.Acceptance.test_strict_versions) (version='1.4')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_strict_versions (__main__.Acceptance.test_strict_versions) (version='1.4.0.0')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_strict_versions (__main__.Acceptance.test_strict_versions) (version='01.4.0')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_strict_versions (__main__.Acceptance.test_strict_versions) (version='../1.4.0')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_strict_versions (__main__.Acceptance.test_strict_versions) (version='1.4.0rc1')",
+      "status": "PASS"
+    },
+    {
+      "test": "test_strict_versions (__main__.Acceptance.test_strict_versions)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_total_uncompressed_limit (__main__.Acceptance.test_total_uncompressed_limit)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_two_installers_serialized (__main__.Acceptance.test_two_installers_serialized)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_uncompressed_size (__main__.Acceptance.test_uncompressed_size)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_windows_junction_guard (__main__.Acceptance.test_windows_junction_guard)",
+      "status": "SKIP",
+      "reason": "requires actual Windows NTFS junction support"
+    },
+    {
+      "test": "test_windows_open_file_sharing_violation_recovery (__main__.Acceptance.test_windows_open_file_sharing_violation_recovery)",
+      "status": "SKIP",
+      "reason": "requires actual Windows file sharing semantics"
+    },
+    {
+      "test": "test_wrong_pinned_key (__main__.Acceptance.test_wrong_pinned_key)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_zip_hash_tampering (__main__.Acceptance.test_zip_hash_tampering)",
+      "status": "PASS"
+    },
+    {
+      "test": "test_zip_symlink (__main__.Acceptance.test_zip_symlink)",
+      "status": "PASS"
+    }
+  ],
+  "scope": "synthetic fixtures only; no real scanner/business/account validation"
+}

@@ -1,0 +1,8 @@
+{
+  "offline_restore": "PASS",
+  "network_required_for_restore": false,
+  "base_repository_required": false,
+  "commit": "1001f98380f34cdcc61f0793d11ff71864854224",
+  "bundle_bytes": 43985,
+  "bundle_sha256": "d1fed878233fa0f066249fa46efd002f0a6ae33c6e29369c9984d223c71d816a"
+}

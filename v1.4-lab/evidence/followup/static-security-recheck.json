@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "source_hashes": {
+    "gang_updater_v14.py": "c8afb46ca1bb2d919db9ccb6cdd0dc9f45261b65881882b02f70ec207d051737",
+    "gang_updater_v14_reviewed.py": "b708a73604e590b0de1b7faadaec9d8ea7ba493859425a12766d77ff714711da",
+    "powerloss_lab.py": "ef5f4f8893aa6780b0c83e6ed6e656ec6b7d62628ae406cba05de1d68b6e8d29",
+    "static_security_check.py": "b8f085f81319d85c45f6aa21447f92fe52ebf160b198080d58dc1a75ff01a49b",
+    "test_gang_v14_independent.py": "a3c8b2403829d73495028bebec4e6300334aea44e94cf1a53c08f30fb5c96983",
+    "test_release_acceptance.py": "3da68a310321617232620536a4ad6d245cd5744e808cda9cacf67d42cdc4dc8b"
+  },
+  "limitations": "AST policy does not sandbox Python or validate real business compatibility."
+}

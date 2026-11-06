@@ -1,0 +1,55 @@
+{
+  "checked_at_utc": "2026-11-06T19:23:50.510089+00:00",
+  "checked_at_asia_shanghai": "2026-11-07T03:23:50.510089+08:00",
+  "requested_commit": "1001f98380f34cdcc61f0793d11ff71864854224",
+  "local_commit_object": "VERIFIED",
+  "original_archive_sha256": "7faca3d20fe06ca8029992e8f268f3c6fad4830e4b5924cd53d74b14e91c5758",
+  "original_archive_bytes": 96323,
+  "archive_embedded_checksums": "PASS",
+  "original_incremental_bundle_verification": "PASS",
+  "standalone_offline_bundle_restore": "PASS",
+  "external_durable_backup": "NOT_CONFIRMED",
+  "github_write_status": "BLOCKED_AUTHENTICATION",
+  "push_attempts": [
+    {
+      "method": "git default credentials",
+      "exit": 128,
+      "error": "fatal: unable to get password from user"
+    },
+    {
+      "method": "git with gh auth git-credential helper",
+      "exit": 128,
+      "error": "Invalid username or token; authentication failed"
+    }
+  ],
+  "github_cli_api": {
+    "exit": 1,
+    "http_status": 401,
+    "error": "Bad credentials"
+  },
+  "remote_branches_after_attempts": [
+    {
+      "name": "main",
+      "sha": "7046750f604df1b6a8f3a86666564b37981acd5f"
+    }
+  ],
+  "github_plugin_connection": "NOT_INSTALLED_NOT_CONNECTED_AT_CHECK",
+  "windows11_acceptance": {
+    "status": "NOT_ACCEPTED_BLOCKED",
+    "reason": "Only Linux environment attached; no Windows endpoint, image or connected document/desktop session"
+  },
+  "real_business_integration": {
+    "status": "NOT_ACCEPTED_BLOCKED",
+    "reason": "Public account has only update repository; main still six files; real modules/schema/anonymized fixtures absent"
+  },
+  "physical_power_loss": {
+    "status": "NOT_ACCEPTED_BLOCKED",
+    "reason": "No dedicated Windows 11 hardware/storage test or external power control/evidence"
+  },
+  "file_export": {
+    "status": "BLOCKED",
+    "reason": "Required /codex output path read-only; no generic attachment/export tool available"
+  },
+  "deployment": "NOT_PERFORMED",
+  "release_verdict": "DO_NOT_DEPLOY"
+}
