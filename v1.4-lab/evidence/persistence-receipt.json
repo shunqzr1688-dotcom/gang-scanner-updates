@@ -1,0 +1,25 @@
+{
+  "verified_at_utc": "2026-11-07T02:03:15.353257+00:00",
+  "repository": "shunqzr1688-dotcom/gang-scanner-updates",
+  "branch": "dev/v14-release-prep",
+  "archive_commit": "8eb2af2740d1cdfede520363aaa92380ec97a588",
+  "download_url": "https://raw.githubusercontent.com/shunqzr1688-dotcom/gang-scanner-updates/8eb2af2740d1cdfede520363aaa92380ec97a588/v1.4-lab/archives/gang-v14-acceptance-handoff.zip",
+  "http_status": 200,
+  "bytes": 340263,
+  "sha256": "2d7ea13f4255a6bedfae4c17238c8ab0705191c17c7f781023a20684caa21d48",
+  "remote_archive_download_and_hash": "PASS",
+  "zip_and_all_inner_checksums": "PASS",
+  "original_commits_preserved": [
+    "1001f98380f34cdcc61f0793d11ff71864854224",
+    "35d382d585169eeb3eae602fc753462336ffab6c"
+  ],
+  "main_expected_sha": "7046750f604df1b6a8f3a86666564b37981acd5f",
+  "linux_tests_rerun": false,
+  "deployment": false,
+  "merged": false,
+  "released": false,
+  "main_observed_sha": "7046750f604df1b6a8f3a86666564b37981acd5f",
+  "branch_observed_sha": "8eb2af2740d1cdfede520363aaa92380ec97a588",
+  "remote_refs_verified_via": "Authenticated GitHub connector fetch of refs/heads/main and refs/heads/dev/v14-release-prep",
+  "external_durable_persistence": "CONFIRMED_ON_GITHUB_BY_REF_AND_REMOTE_DOWNLOAD"
+}

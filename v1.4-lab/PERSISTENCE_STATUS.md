@@ -12,7 +12,9 @@ GitHub 正常连接已完成，目标仓库确认 push 权限；首次开发分�
 
 包内包含原测试包、源代码、测试证据、说明、全量 Git bundle，已在此前独立离线恢复核验。归档文件按字节保留，未重打包或改写。该 ZIP 及 `ACCEPTANCE_FOLLOWUP.md` 中认证失败/未远程保存的描述是归档时的历史状态，不代表后续连接与推送结果。
 
-远程文件下载校验将在推送本提交后单独记录于 `evidence/persistence-receipt.json`；仅将本地复制视作校验不足，必须从远程重新下载并核对 SHA256。
+远程文件已从固定提交 `8eb2af2740d1cdfede520363aaa92380ec97a588` 独立重新下载：HTTP 200，340,263 字节，SHA256 与上文一致，ZIP 和全部内层校验清单均通过。已确认工作区之外的 GitHub 保存成功，回执见 `evidence/persistence-receipt.json`。本轮只做归档/哈希/远程 refs 核验，未重跑已有 Linux 测试。
+
+[直接下载原样完整交接包](https://raw.githubusercontent.com/shunqzr1688-dotcom/gang-scanner-updates/8eb2af2740d1cdfede520363aaa92380ec97a588/v1.4-lab/archives/gang-v14-acceptance-handoff.zip)。
 
 获取方式：在当前开发分支进入 `v1.4-lab/archives/gang-v14-acceptance-handoff.zip`，选择 Download raw file。`archives/SHA256SUMS.txt` 是对应的校验清单。若要固定版本，请采用保存回执中的完整 commit SHA 和下载 URL。
 
